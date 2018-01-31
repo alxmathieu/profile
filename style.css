@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(247, 247, 247);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  line-height: 18px;
+  color: #303841;
+  font-size: 18;
+  line-height: 1.2em;
+}
+
+td {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #3A4750;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F6C90E;
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul > li {
+    display: inline-block;
+    padding: 20;
+    font-size: 25;
+    color: rgb(50, 50, 50);
+}
+
+td {
+  padding: 10 10 10 10;
+}
+
+/*CSS classe*/
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  padding: 3 20 25 20;
+  margin: 14 -100 23 -100;
+  box-shadow: 1px 1px 5px 0px rgba(50, 56, 64, 0.1);
+}
+
+.inline {
+  display: inline
+}
+
+.btn-ylw {
+  background-color: #F6C90E;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-ylw:hover {
+  background-color: #F6BC00;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.fa {
+    line-height: 1.6em;
+}
+
+
+
+
+
+
+
+
