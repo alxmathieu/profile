@@ -24,7 +24,7 @@ h2 {
 }
 
 a {
-  color: #3A4750;
+  color: #BABABA;
   text-decoration: none;
 }
 
@@ -37,12 +37,6 @@ ul {
   padding-left: 0;
 }
 
-ul > li {
-    display: inline-block;
-    padding: 20;
-    font-size: 25;
-    color: rgb(50, 50, 50);
-}
 
 td {
   padding: 10 10 10 10;
@@ -87,10 +81,33 @@ td {
 }
 
 .fa {
-    line-height: 1.6em;
+  line-height: 1.6em;
 }
 
+.socials {
+    list-style: none;
+    display: inline-block;
+    padding: 20;
+    font-size: 25;
+    color: rgb(50, 50, 50);
+}
+/*CSS ID*/
 
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #303841;
+  font-size: 30;
+  line-height: 3em;
+  color: #EEEEEE;
+}
+
+#page-content {
+  margin-left: 200px;
+}
 
 
 
